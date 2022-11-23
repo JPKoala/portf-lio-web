@@ -1,0 +1,199 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #b1760a59
+}
+
+header {
+	background: #0000008a;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.avatar {
+	border-radius: 20%;
+	border:#167432 6px solid;
+	width: 250px;
+}
+
+.meu-nome {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 170px;
+	font-size: 40px;
+}
+
+nav {
+	position: absolute;
+	top: 90px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 19px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #167432;
+	text-decoration: underline;
+}
+
+.lista-habilidades {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.lista-habilidades li {
+	display: inline-block;
+	text-align: center;
+	width: 45%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+ 
+.livros-habilidades {
+	width: 500px;
+	position: relative;
+	right: 180px;
+}
+
+.htmlecss {
+	width: 435px;
+	position: relative;
+	right: 20px;
+}
+
+.lista-habilidades li:hover {
+	border-color: #167432;
+}
+
+.lista-habilidades li:active {
+	border-color: #C78C19;
+}
+
+.lista-habilidades li:hover h2 {
+	font-size: 38px;
+}
+
+.lista-habilidades h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.paragrafo-habilidades {
+	font-size: 18px;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #000000;
+	padding: 40px 0;
+}
+
+.paragrafo-footer {
+	color: #FFFFFF;
+	font-size: 28px;
+	text-transform: uppercase;
+	padding-bottom: 60px;
+}
+
+.caixa-contato {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.titulo-contato {
+	text-align: left;
+	font-size: 45px;
+	color: #0496f7;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+
+.githubimg {
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+.paragrafo-contato {
+	text-align: left;
+	font-size: 34px;
+	color: #0496f7;
+	margin-bottom: 50px
+}
+
+.paragrafo-email {
+	font-size: 24px;
+	font-style: italic;
+	padding-bottom: 100px;
+}
+/* css da página inicial */
+.principal {
+	padding: 120px 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 45px;
+	color: #0496f7;
+}
+
+.paragrafo-sobremim{
+	margin-top: 50px;
+	font-size: 22px;
+}
+
+.imagem-rock {
+	width: 10%;
+	left: 10%;
+	top: 70%;
+	position: absolute;
+}
+
+.coisas-gosto {
+	padding: 0 0 50px 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.paragrafo-gostos {
+	text-align: left;
+	font-size: 34px;
+	color: #0496f7;
+	margin-bottom: 60px;
+}
+
+.lista-gostos {
+	font-size: 22px;
+}
+
+.lista-gostos li {
+	padding-top: 20px;
+}
+
+.lista-gostos li::before {
+	content: '♪ ';
+}
